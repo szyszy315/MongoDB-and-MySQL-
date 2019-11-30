@@ -1,0 +1,23 @@
+MongoDB and MySQL Compared
+====
+
+What is MongoDB
+----
+MongoDB is one of the most popular document-oriented databases under the banner of NoSQL database.
+
+con:
+1.It employs the format of key-value pairs which are stored in BSON files which are a little-modified version of JSON files and hence all JS are supported.
+Because of this, it is frequently used for Node.js projects. <br>
+2.JSON facilitates the exchange of data between web apps and servers in a human-readable format.<br>
+3.it offers greater efficiency and reliability which in turn can meet your storage capacity and speed demands.<br>
+4.
+
+What is MySQL
+----
+MySQL is a popular open-source relational database management system (RDBMS) that is developed, distributed and supported by Oracle Corporation. 
+MySQL stores data in tables and uses structured query language (SQL) for database access. <br>
+In MySQL, you predefine your database schema based on your requirements and set up rules to govern the relationships between fields in your tables.
+
+Query Language
+----
+*SQL
