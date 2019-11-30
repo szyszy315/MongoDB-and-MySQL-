@@ -31,7 +31,17 @@ Sharding is the method of distributing data across multiple machines to support 
 MongoDB: Its sharding has the ability to break up a collection into subsets of data to store them across multiple shards. This allows the application to grow beyond the resource limits of a standalone server or replica set.<br>
 MySQL: No standard sharding implementation. 
 
+Replication
+----
+MongoDB: This supports only master-slave replication. It uses replica sets to create multiple copies of the data.
+MySQL: This supports both master-slave replication and master-master replication. Multi-source replication gives you the ability to replicate data from several masters in parallel.
+
 Performance & Speed
 ----
 MongoDB: A main benefit it has over MySQL is its ability to handle large unstructured data. People are experiencing real world MongoDB performance mainly because it allows users to query in a different manner that is more sensitive to workload.<br>
 MySQL: Developers note that MySQL is quite slow in comparison to MongoDB when it comes to dealing with the large database. Hence, it is a better choice for users with small data volume.
+
+
+Conclusion
+----
+MySQL is well-recognized for its high performance, flexibility, reliable data protection, high availability, and management ease. Proper data indexing can solve the issue with performance, facilitate interaction and ensure robustness. But if your data is unstructured and complex, or if you can’t pre-define your schema, you’d better opt for MongoDB. And what is more, if you need to handle a large volume of data and store it as documents MongoDB is always a better choice.
